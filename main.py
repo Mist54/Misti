@@ -1,5 +1,5 @@
 from nlp.session import nlp_userInput
-from nlp.nlp_engine import process_input  # Assuming your NLP logic is in this file
+from nlp.nlp_engine import process_input, append_validation_message  # Assuming your NLP logic is in this file
 
 def main():
     session = nlp_userInput()
